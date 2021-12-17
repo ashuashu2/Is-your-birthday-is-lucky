@@ -1,0 +1,42 @@
+body{
+    background-color: darksalmon;
+    
+    text-align: center;
+}
+h1{
+    font-weight: lighter;
+}
+#date-of-birth{
+    display: block;
+    margin: auto;
+    width: 20%;
+    padding: 0.3rem;
+    border-color: darkslateblue;
+
+}
+#lucky-number{
+    display: block;
+    margin: auto;
+    width: 20%;
+    padding: 0.3rem;
+    border-color: darkslateblue;
+}
+
+label{
+    font-size: x-large;
+
+    display: block;
+    padding-top: 1rem;
+}
+button{
+    font-size: large;
+    margin-top: 0.3rem;
+    border-color: darkslateblue;
+}
+
+#output-box{
+    
+font-size: xx-large;
+margin-top: 1rem;
+font-weight: bolder;
+}
