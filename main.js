@@ -11,12 +11,12 @@ var outputBox = document.querySelector("#output-box");
 function compareValues ( sum,luckyNumber){
 
     if (sum%luckyNumber === 0 ){
-    
-    
+      
         
      outputBox.innerText ="Your  birth Date is lucky 😘😘🕺 "
      
     } else {
+
         outputBox.innerText="Your  birth Date is not lucky 😓😭"
     }
      
@@ -26,7 +26,10 @@ function compareValues ( sum,luckyNumber){
 function checkBirthDateIsLucky() {
     var dob = dateOfBirth.value;
     var sum = calculateSum(dob);
+    if(sum&&dob)
     compareValues(sum,luckyNumber.value)
+    else 
+    outputBox.innerText="please enter both feilds"
 
 }
 
