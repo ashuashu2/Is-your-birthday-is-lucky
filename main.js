@@ -14,10 +14,13 @@ function compareValues ( sum,luckyNumber){
       
         
      outputBox.innerText ="Your  birth Date is lucky 😘😘🕺 "
+     outputBox.style.color= "green" 
      
     } else {
 
         outputBox.innerText="Your  birth Date is not lucky 😓😭"
+        outputBox.style.color= "red" 
+
     }
      
 
