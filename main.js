@@ -11,7 +11,11 @@ var outputBox = document.querySelector("#output-box");
 function compareValues ( sum,luckyNumber){
 
     if (sum%luckyNumber === 0 ){
-     outputBox.innerText="Your  birth Date is lucky 😘😘🕺 "
+    
+    
+        
+     outputBox.innerText ="Your  birth Date is lucky 😘😘🕺 "
+     
     } else {
         outputBox.innerText="Your  birth Date is not lucky 😓😭"
     }

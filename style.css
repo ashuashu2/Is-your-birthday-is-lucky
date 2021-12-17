@@ -1,10 +1,15 @@
 body{
     background-color: darksalmon;
     
+
+    
     text-align: center;
 }
 h1{
     font-weight: lighter;
+    margin-top: 3rem;
+    font-weight: bolder;
+   
 }
 #date-of-birth{
     display: block;
