@@ -37,6 +37,7 @@ button{
     font-size: large;
     margin-top: 0.3rem;
     border-color: darkslateblue;
+    cursor: pointer;
 }
 
 #output-box{
